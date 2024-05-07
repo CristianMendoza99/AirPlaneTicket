@@ -5,7 +5,7 @@ import { UpdateAirlineDto } from './dto/update-airline.dto';
 @Injectable()
 export class AirlineService {
   create(createAirlineDto: CreateAirlineDto) {
-    return 'This action adds a new airline';
+    return 'This action adds ';
   }
 
   findAll() {
